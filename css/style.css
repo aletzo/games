@@ -1,0 +1,23 @@
+body {
+	background : #000;
+}
+
+div#wrapper {
+	height: 200px;
+	margin: 30px auto 0;
+	overflow: hidden;
+    padding: 10px;
+	width: 400px;
+}
+a.game {
+	color: limegreen;
+	line-height: 30px;
+    outline: none;
+	text-decoration:none;
+}
+a.game:hover {
+    color: lime;
+}
+a.game:before {
+    content: '\\> ';
+}
