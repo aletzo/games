@@ -3,20 +3,60 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>games</title>
+        
+        <meta name="description" content="Some puzzle games that helps sharpen your brain">
 
         <link href="css/colorbox.css" rel="stylesheet" />
         <link href="css/style.css" rel="stylesheet" />
     </head>
     <body>
         <div id="wrapper">
-            <a class="game" title="dots-lines-squares" href="dots-lines-squares">dots-lines-squares</a>
-            <br />
-            <a class="game" title="picnums" href="picnums">picnums</a>
-            <br />
-            <a class="game" title="sudoku" href="sudoku">sudoku</a>
+            <h1>Some brain sharpeners. Enjoy!</h1>
+            <div id="accordion">
+                <h3>dots-lines-squares</h3>
+                <div class="iframe">
+                    <div class="help">
+                        <p><b>[2 players]</b></p>
+                        <p>The players (blue and green) take turns and compete to "complete" as many squares as possible.</p>
+                        <p>The players create lines by connecting two neighbor dots.</p>
+                        <p>The person that creates the last line line of a square, completes it and gets one extra turn.</p>
+                        <p>The game progresses slowly, but it gets really interesting as the players' options are narrowing down.</p>
+                    </div>
+                    <iframe height="380" width="420" src="http://mydevnull.net/games/dots-lines-squares"></iframe>
+                    <a href="#" class="questionmark" title="instructions">?</a>
+                </div>
+                <h3>picnums</h3>
+                <div class="iframe">
+                    <div class="help">
+                        <p><b>[1 player]</b></p>
+                        <p>It's the classic nonogram or picross game with a twist!</p>
+                        <p>All the puzzles are generated at random, in order to get a difficult puzzle in a small 10x10 area.</p>
+                        <p>By clicking on a square, it gets colored sequentially: black (yes), red (no), gray (maybe) and white (not played yet).</p>
+                        <p>Once finished, click on "solution" to compare the results - green for yes and red for no.</p>
+                        <p>There are 3 difficulty methods.</p>
+                        <p>The puzzles are randomly generated, so some may have more than one solutions.</p>
+                    </div>
+                    <iframe height="460" width="415" src="http://mydevnull.net/games/picnums"></iframe>
+                    <a href="#" class="questionmark" title="instructions">?</a>
+                </div>
+                <h3>sudoku</h3>
+                <div class="iframe">
+                    <div class="help">
+                        <p><b>[1 player]</b></p>
+                        <p>It's the classic sudoku game.</p>
+                        <p>The puzzles' level might be a little too difficult for the beginners.</p>
+                        <p>You may use the arrow keys to move around.</p>
+                        <p>Use the backscape or the delete key to delete a number.</p>
+                        <p>Double click on the inputted number to toggle the color between orange and gray.</p>
+                        <p>Use the save and load buttons accordingly. They may also function as a checkpoint.</p>
+                    </div>
+                    <iframe height="460" width="420" src="http://mydevnull.net/games/sudoku"></iframe>
+                    <a href="#" class="questionmark" title="instructions">?</a>
+                </div>
+            </div>
         </div>
         <script type="text/javascript" src="js/jquery-1.6.1.min.js"></script>
-        <script type="text/javascript" src="js/jquery.colorbox-min.js"></script>
+        <script type="text/javascript" src="js/jquery-ui-1.8.16.custom.min.js"></script>
         <script type="text/javascript" src="js/app.js"></script>
         <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");

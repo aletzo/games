@@ -1,23 +1,76 @@
 body {
-	background : #000;
+	background : #060811;
+    color: #1692FF;
+}
+
+h1 {
+    color: #96EBFF;
+    font-size: 1.2em;
+    font-weight: normal;
+    text-align: center;
+    margin: 0 0 30px;
 }
 
 div#wrapper {
-	height: 200px;
 	margin: 30px auto 0;
 	overflow: hidden;
     padding: 10px;
-	width: 400px;
+	width: 500px;
 }
-a.game {
-	color: limegreen;
-	line-height: 30px;
+h3 {
+    color: #FF7700;
+    cursor: pointer;
+    font-size: 0.9em;
+    font-weight: normal;
     outline: none;
-	text-decoration:none;
 }
-a.game:hover {
-    color: lime;
-}
-a.game:before {
+h3:before {
     content: '\\> ';
+}
+div.iframe {
+    position: relative;
+}
+div.help {
+    background: #CDF215;
+    display: none;
+    padding: 20px;
+    position: fixed;
+    left: 10%;
+    text-shadow: 0px 1px 0px rgba(255,255,255,.5);
+    top: 150px;
+    width: 300px;
+  -webkit-border-radius: 5px; 
+     -moz-border-radius: 5px; 
+          border-radius: 5px; 
+}
+div.help p {
+    color: #1692FF;
+    font-size: 0.8em;
+    font-weight: normal;
+    margin: 0 0 10px;
+}
+div.iframe iframe {
+    border: 5px solid #1692FF;
+  -webkit-border-radius: 5px; 
+     -moz-border-radius: 5px; 
+          border-radius: 5px; 
+  -webkit-box-shadow: 0px 0px 12px #1692FF; 
+     -moz-box-shadow: 0px 0px 12px #1692FF; 
+          box-shadow: 0px 0px 12px #1692FF; 
+
+}
+a.questionmark {
+    color: #fff;
+    font-size: 3em;
+    position: absolute;
+    right: 20px;
+    text-decoration: none;
+    top: 0;
+}
+a.questionmark:hover {
+    text-shadow: 0 0 5px #fff;
+}
+a.questionmark:active {
+    top: 1px;
+    right: 19px;
 }
