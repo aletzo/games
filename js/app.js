@@ -1,3 +1,5 @@
+$('.iframe').show();
+
 $('#accordion').accordion({
     change: function(ev, ui) {
         $('a.questionmark').each(function(i, el) {
