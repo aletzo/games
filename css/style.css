@@ -1,5 +1,5 @@
 body {
-	background : #060811;
+    background : #060811;
     color: #1692FF;
     font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
 }
@@ -25,9 +25,6 @@ h3 {
     font-weight: normal;
     outline: none;
 }
-h3:before {
-    content: '\\> ';
-}
 div.iframe {
     position: relative;
 }
@@ -51,14 +48,7 @@ div.help p {
     margin: 0 0 10px;
 }
 div.iframe iframe {
-    border: 5px solid #1692FF;
-  -webkit-border-radius: 5px; 
-     -moz-border-radius: 5px; 
-          border-radius: 5px; 
-  -webkit-box-shadow: 0px 0px 12px #1692FF; 
-     -moz-box-shadow: 0px 0px 12px #1692FF; 
-          box-shadow: 0px 0px 12px #1692FF; 
-
+    border: none;
 }
 a.questionmark {
     color: #fff;
