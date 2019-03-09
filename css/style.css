@@ -26,6 +26,9 @@ h3 {
     outline: none;
 }
 div.iframe {
+    display: none;
+    height: 500px;
+    width: 500px;
     position: relative;
 }
 div.help {
